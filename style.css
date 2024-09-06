@@ -27,13 +27,14 @@ span a {
     text-align: center;
     width: 300px;
     height: 320px;
-    background-color: brown;
+    /*background-color: brown;*/
     border-radius: 30px;
 }
 
 form div {
-    background-color: yellow;
-    width: 220px;
+    /*background-color: yellow;*/
+    width: 207px;
+    padding: 0;
 }
 
 form {
@@ -45,8 +46,15 @@ form {
 form label {
     display: block;
     text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 label, input {
     width: 200px;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
