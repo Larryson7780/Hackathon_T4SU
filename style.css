@@ -1,0 +1,22 @@
+.liens {
+    display: flex;
+    gap: 20px;
+}
+
+.liens li {
+    list-style-type: none;
+}
+
+.liens li a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span a {
+    text-decoration: none ;
+}
