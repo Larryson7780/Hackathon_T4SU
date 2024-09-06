@@ -30,3 +30,23 @@ span a {
     background-color: brown;
     border-radius: 30px;
 }
+
+form div {
+    background-color: yellow;
+    width: 220px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: block;
+    text-align: left;
+}
+
+label, input {
+    width: 200px;
+}
