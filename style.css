@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Nunito Bold';
+    src: url("/police/static/Nunito-Bold.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -52,6 +59,10 @@ span a {
 
 .formulaire > div:first-child {
     font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-family: Nunito, serif;
 }
 
 form div {
@@ -73,8 +84,11 @@ form label {
     padding-bottom: 0;
 }
 
-label, input {
+input {
     width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 input[type=submit] {
