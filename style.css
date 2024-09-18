@@ -65,6 +65,15 @@ span a {
     font-family: Nunito, serif;
 }
 
+.formulaire > div:last-child {
+    font-size: 10px;
+}
+
+.formulaire > div:last-child span a{
+    font-weight: bolder;
+    color: black;
+}
+
 form div {
     /*background-color: yellow;*/
     width: 207px;
@@ -94,6 +103,13 @@ input {
 input[type=submit] {
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #050a30;
+    color: white;
+    font-weight: bolder;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    background-color: #efefef;
 }
 
 .espacement_label_input label {
