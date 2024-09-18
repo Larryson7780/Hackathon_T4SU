@@ -42,7 +42,7 @@ span a {
 }
 
 .formulaire {
-    display: flex;
+    display: none;
     flex-direction: column;
     text-align: center;
     width: 300px;
@@ -119,4 +119,20 @@ input[type=text], input[type=email], input[type=password] {
 
 .espacement_label_input input {
     margin: 0;
+}
+
+.message_de_bienvenue, .se_connecter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.message_de_bienvenue {
+    font-size: 70px;
+    display: none;
+}
+
+.se_connecter {
+    font-size: 20px;
 }
