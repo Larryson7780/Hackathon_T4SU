@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     background-image: url('/hahahaaaa.jpg');
     background-size: cover; /* Pour couvrir tout l'écran */
@@ -40,10 +39,11 @@ span a {
     flex-direction: column;
     text-align: center;
     width: 300px;
-    height: 320px;
-    /*background-color: brown;*/
+    height: 380px;
+    background-color: white;
     border-radius: 30px;
     color: black;
+    margin-top: 20px;
 }
 
 .formulaire > div:first-child {
