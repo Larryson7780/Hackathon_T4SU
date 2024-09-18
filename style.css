@@ -44,6 +44,10 @@ span a {
     border-radius: 30px;
     color: black;
     margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .formulaire > div:first-child {
