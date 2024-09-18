@@ -7,6 +7,8 @@ body {
     background-position: center; /* Pour centrer l'image */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     min-height: 100vh; /* Pour que le body prenne au moins la hauteur de la fenêtre */
+    color: white;
+    padding: 10px 30px;
 }
 
 .liens {
@@ -20,6 +22,7 @@ body {
 
 .liens li a {
     text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -40,6 +43,11 @@ span a {
     height: 320px;
     /*background-color: brown;*/
     border-radius: 30px;
+    color: black;
+}
+
+.formulaire > div:first-child {
+    font-weight: bolder;
 }
 
 form div {
