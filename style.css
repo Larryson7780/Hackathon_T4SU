@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('/hahahaaaa.jpg');
+    background-size: cover; /* Pour couvrir tout l'écran */
+    background-position: center; /* Pour centrer l'image */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    min-height: 100vh; /* Pour que le body prenne au moins la hauteur de la fenêtre */
+}
+
 .liens {
     display: flex;
     gap: 20px;
